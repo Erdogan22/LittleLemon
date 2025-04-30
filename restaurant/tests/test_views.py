@@ -2,7 +2,7 @@ from django.test import TestCase
 from rest_framework import status
 from rest_framework.test import APIClient
 from restaurant.models import MenuTable, BookingTable
-from restaurant.serializer import MenuTableSerializer, BookingTableSerializer
+from restaurant.serializers import MenuTableSerializer, BookingTableSerializer
 from rest_framework.authtoken.models import Token
 from django.contrib.auth.models import User  # <-- Add this import
 
